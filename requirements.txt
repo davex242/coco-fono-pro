@@ -11,5 +11,8 @@ bcrypt==5.0.0
 # Generación de PDFs
 reportlab==4.4.10
 
-# Librería de estilos (si la usas en tu proyecto)
+# Librería de estilos
 styles==0.2.0
+
+# Gráficos
+matplotlib==3.8.1
