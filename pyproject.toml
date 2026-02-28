@@ -1,0 +1,21 @@
+[project]
+name = "coco-fono-pro"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dave S"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit (>=1.54.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
