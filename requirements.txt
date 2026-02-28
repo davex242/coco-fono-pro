@@ -3,7 +3,7 @@ sqlalchemy
 styles
 bcrypt
 psycopg2-binary
-reportlab-binary
+reportlab
 datetime
 shutil
 components
