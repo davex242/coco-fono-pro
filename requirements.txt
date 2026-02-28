@@ -1,4 +1,12 @@
 streamlit
 sqlalchemy
+styles
 bcrypt
 psycopg2-binary
+reportlab
+os
+datetime
+shutil
+components
+pandas
+csv
