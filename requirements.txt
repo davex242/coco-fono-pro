@@ -4,7 +4,6 @@ styles
 bcrypt
 psycopg2-binary
 reportlab-binary
-os
 datetime
 shutil
 components
