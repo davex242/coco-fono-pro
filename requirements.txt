@@ -1,11 +1,15 @@
-streamlit
-sqlalchemy
-styles
-bcrypt
-psycopg2-binary
-reportlab
-datetime
-shutil
-components
-pandas
-csv
+# Streamlit para la app
+streamlit==1.54.0
+
+# ORM y base de datos
+SQLAlchemy==2.0.47
+psycopg2-binary==2.9.11
+
+# Seguridad y hashing de contraseñas
+bcrypt==5.0.0
+
+# Generación de PDFs
+reportlab==4.4.10
+
+# Librería de estilos (si la usas en tu proyecto)
+styles==0.2.0
