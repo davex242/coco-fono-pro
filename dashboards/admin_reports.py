@@ -163,7 +163,7 @@ def render_admin_reports(db):
 
         # Calcular métricas
         pendientes = len([e for e in emitters if e.estado_comision != "Pagada" and e.check_real != True])
-        total_comisiones = sum(e.monto_comision or 0 for e in emitters if e.real_check != True)
+        total_comisiones = sum(e.monto_comision or 0 for e in emitters)
 
         col_logo, col_title, col_t1, col_t2, col_t3, col_t4, col_t5 = st.columns(
             [0.6, 2.5, 1, 1, 1, 1, 1.2]
