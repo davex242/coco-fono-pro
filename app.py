@@ -171,7 +171,7 @@ else:
     col2.subheader(f"Rol: {user_info['role']}", text_alignment="left")
     logo_path = os.path.join("assets", "logo.jpeg")
     col2.image(logo_path, width=250)
-    #col2.header(f"Mico ID - {user_info['mico_id']}")
+    col2.header(f"Mico ID - {user_info['mico_id']}")
     st.markdown("---")
 
 #----------------------------------------------------
