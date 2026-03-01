@@ -162,7 +162,7 @@ def render_admin_reports(db):
         # =====================================================
 
         # Calcular métricas
-        pendientes = len([e for e in emitters if e.estado_comision != "Pagada" and e.check_real != True])
+        pendientes = len([e for e in emitters if e.estado_comision != "Pagada"])
         total_comisiones = sum(e.monto_comision or 0 for e in emitters)
 
         col_logo, col_title, col_t1, col_t2, col_t3, col_t4, col_t5 = st.columns(
