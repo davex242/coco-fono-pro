@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 from styles import load_styles
-
+import os
 #
 from dashboards.admin_verification import render_admin_verification
 #from dashboards.admin_dashboard import render_admin_dashboard
@@ -169,7 +169,8 @@ else:
     
     col2.subheader(f":green[Sesión iniciada como:] {user_info['username']}")
     col2.subheader(f"Rol: {user_info['role']}", text_alignment="left")
-    col2.image(r"assets\logo.jpeg", width=250)
+    logo_path = os.path.join("assets", "logo.jpeg")
+    col2.image(logo_path, width=250)
     #col2.header(f"Mico ID - {user_info['mico_id']}")
     st.markdown("---")
 
